@@ -1,7 +1,7 @@
 # ipsweep
 IP Address Sweep
 
-A ping sweep is a method that can establish a range of IP addresses which map to live hosts.
+A ping sweep or IP address sweep is a method that can establish a range of IP addresses which map to live hosts.
 
 Bash Command:
 for i in {1..254} ;do (ping -c 1 192.168.1.$i | grep "bytes from" &) ;done
